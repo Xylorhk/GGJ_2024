@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scenes/Main Scenes/Place Holder.unity.meta
+guid: 47a27cb17656fc745bd39ad09d5819e3
+DefaultImporter:
+========
 guid: 3708b2b2797bf2642b29eca9b745ad44
 PrefabImporter:
+>>>>>>>> a8c088fb97fba9e65f47ac0b80f50a8692cd3860:Assets/Prefabs/ECM_Character.prefab.meta
   externalObjects: {}
   userData: 
   assetBundleName: 
