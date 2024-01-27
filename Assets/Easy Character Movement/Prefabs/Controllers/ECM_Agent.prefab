@@ -307,17 +307,24 @@ MonoBehaviour:
         colorIndex: 0
       actionData:
         actionNames:
-        - HutongGames.PlayMaker.Actions.AgentSetPath
         - HutongGames.PlayMaker.Actions.Wait
+        - HutongGames.PlayMaker.Actions.NavMeshCalculatePathBetweenGameObjects
         customNames:
         - 
         - 
         actionEnabled: 0101
         actionIsOpen: 0101
-        actionStartIndex: 0000000005000000
-        actionHashCodes: 556f820048c01101
+        actionStartIndex: 0000000003000000
+        actionHashCodes: 48c0110186b9a301
         unityObjectParams: []
-        fsmGameObjectParams: []
+        fsmGameObjectParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 6561306580087259037, guid: 714a555039d1b004aaae1ad686171ae5,
+            type: 3}
         fsmOwnerDefaultParams:
         - ownerOption: 0
           gameObject:
@@ -329,13 +336,12 @@ MonoBehaviour:
             value: {fileID: 0}
         - ownerOption: 1
           gameObject:
-            useVariable: 0
+            useVariable: 1
             name: 
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            value: {fileID: 6561306580087259037, guid: 714a555039d1b004aaae1ad686171ae5,
-              type: 3}
+            value: {fileID: 0}
         animationCurveParams: []
         functionCallParams: []
         fsmTemplateControlParams: []
@@ -345,7 +351,20 @@ MonoBehaviour:
         fsmStringParams: []
         fsmObjectParams: []
         fsmVarParams: []
-        fsmArrayParams: []
+        fsmArrayParams:
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          type: -1
+          objectTypeName: UnityEngine.Object
+          floatValues: []
+          intValues: 
+          boolValues: 
+          stringValues: []
+          vector4Values: []
+          objectReferences: []
         fsmEnumParams: []
         fsmFloatParams:
         - useVariable: 0
@@ -354,10 +373,16 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 2
-        fsmIntParams: []
-        fsmBoolParams:
+        fsmIntParams:
         - useVariable: 0
           name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: -1
+        fsmBoolParams:
+        - useVariable: 1
+          name: Path
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -376,18 +401,21 @@ MonoBehaviour:
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 14000000140000001100000017000000170000000f0000001700000001000000
+        paramDataType: 0f00000017000000010000001000000014000000130000002900000014000000110000001700000017000000
         paramName:
-        - gameObject
-        - path
-        - pathAssigned
-        - pathAssignedEvent
-        - pathNotAssignedEvent
         - time
         - finishEvent
         - realTime
-        paramDataPos: 0000000001000000000000000000000001000000000000000200000000000000
-        paramByteDataSize: 0000000000000000000000000000000000000000000000000000000001000000
+        - passableMask
+        - sourceGameObject
+        - targetGameObject
+        - calculatedPathCorners
+        - calculatedPath
+        - resultingPathFound
+        - resultingPathFoundEvent
+        - resultingPathNotFoundEvent
+        paramDataPos: 0000000000000000000000000000000000000000000000000000000001000000000000000100000002000000
+        paramByteDataSize: 0000000000000000010000000000000000000000000000000000000000000000000000000000000000000000
     events:
     - name: Chase Player
       isSystemEvent: 0
@@ -405,7 +433,13 @@ MonoBehaviour:
     variables:
       floatVariables: []
       intVariables: []
-      boolVariables: []
+      boolVariables:
+      - useVariable: 1
+        name: Path
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: 0
       stringVariables: []
       vector2Variables: []
       vector3Variables:
@@ -426,7 +460,7 @@ MonoBehaviour:
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 00000000
+      variableCategoryIDs: 0000000000000000
     description: 
     docUrl: 
     showStateLabel: 0
