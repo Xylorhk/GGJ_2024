@@ -510,6 +510,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 117721934498665907, guid: 668c7012b9ba1814ea40531e48da6c36,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -849.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 117721934498665907, guid: 668c7012b9ba1814ea40531e48da6c36,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -521
+      objectReference: {fileID: 0}
     - target: {fileID: 599429354218685989, guid: 668c7012b9ba1814ea40531e48da6c36,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -560,30 +570,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 783765957903704399, guid: 668c7012b9ba1814ea40531e48da6c36,
-        type: 3}
-      propertyPath: m_Name
-      value: Coin Spawn
-      objectReference: {fileID: 0}
     - target: {fileID: 2037959135337245400, guid: 668c7012b9ba1814ea40531e48da6c36,
         type: 3}
       propertyPath: m_Name
       value: GameManager
-      objectReference: {fileID: 0}
-    - target: {fileID: 2165169765459907673, guid: 668c7012b9ba1814ea40531e48da6c36,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2165169765459907673, guid: 668c7012b9ba1814ea40531e48da6c36,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.23
-      objectReference: {fileID: 0}
-    - target: {fileID: 2165169765459907673, guid: 668c7012b9ba1814ea40531e48da6c36,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 5.43
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
