@@ -274,7 +274,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            value: 
+            value: GM
           sendToChildren:
             useVariable: 0
             name: 
