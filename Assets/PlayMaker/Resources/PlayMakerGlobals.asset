@@ -81,7 +81,11 @@ MonoBehaviour:
   - PHOTON / ON REGION LIST RECEIVED
   - PHOTON / ON WEBRPC RESPONSE
   - PHOTON / ON PHOTON INSTANTIATE
-  - Subtract Wealth
-  - Add Wealth
-  - You Win!!!
   - Suicide
+  - Lose Health
+  - You Win!!!
+  - Add Wealth
+  - Subtract Wealth
+  - Gain Health
+  - Killed
+  - Heal
