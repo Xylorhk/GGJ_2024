@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Dev Scenes/The Sammin.unity
+    guid: 8f1633f3a87949648ad3b2c67734124f
   m_configObjects: {}
