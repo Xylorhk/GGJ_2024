@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8948469529411252715}
   m_Layer: 0
-  m_Name: Dungeon Room 1
+  m_Name: Dun Room 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -298,6 +298,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 899516169154768749, guid: bf47c493a9f3f66459bb64c3fb49c452,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6fcb7761793aadf488cd451f071ecc97, type: 2}
     - target: {fileID: 3051338083248119556, guid: bf47c493a9f3f66459bb64c3fb49c452,
         type: 3}
       propertyPath: m_Name
@@ -713,6 +718,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 899516169154768749, guid: bf47c493a9f3f66459bb64c3fb49c452,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6fcb7761793aadf488cd451f071ecc97, type: 2}
     - target: {fileID: 3051338083248119556, guid: bf47c493a9f3f66459bb64c3fb49c452,
         type: 3}
       propertyPath: m_Name
