@@ -75,3 +75,10 @@ MonoBehaviour:
   - PHOTON / ON REGION LIST RECEIVED
   - PHOTON / ON WEBRPC RESPONSE
   - PHOTON / ON PHOTON INSTANTIATE
+  - Damage
+  - Lose Health
+  - Add Wealth
+  - Gain Health
+  - Killed
+  - Subtract Wealth
+  - Heal
