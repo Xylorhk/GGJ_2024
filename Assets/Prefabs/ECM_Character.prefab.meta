@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 fileFormatVersion: 2
 <<<<<<<< HEAD:Assets/Scenes/Main Scenes/Place Holder.unity.meta
 guid: bf43d792d5c2df54385bfd509646cd9f
@@ -10,3 +11,17 @@ PrefabImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+=======
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scenes/Main Scenes/Place Holder.unity.meta
+guid: 42d67d8cc1ff4ef4eb23f4737e2a8764
+DefaultImporter:
+========
+guid: 3708b2b2797bf2642b29eca9b745ad44
+PrefabImporter:
+>>>>>>>> a8c088fb97fba9e65f47ac0b80f50a8692cd3860:Assets/Prefabs/ECM_Character.prefab.meta
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+>>>>>>> Stashed changes
