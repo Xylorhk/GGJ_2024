@@ -14,9 +14,10 @@ GameObject:
   - component: {fileID: 4880491285392898326}
   - component: {fileID: 7197413976119997085}
   - component: {fileID: 2331032460602938296}
+  - component: {fileID: -1908922890678577322}
   m_Layer: 0
   m_Name: Red_Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -498,6 +499,19 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &-1908922890678577322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6561306580087259037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d7dfa8a4eb4e4091bd6831dacecc9fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  corners: []
 --- !u!1 &6915526567461119805
 GameObject:
   m_ObjectHideFlags: 0

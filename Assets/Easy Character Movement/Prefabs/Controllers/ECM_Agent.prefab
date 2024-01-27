@@ -261,7 +261,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 5
+          value: 2
         fsmIntParams: []
         fsmBoolParams: []
         fsmVector2Params: []
@@ -307,23 +307,17 @@ MonoBehaviour:
         colorIndex: 0
       actionData:
         actionNames:
-        - HutongGames.PlayMaker.Actions.MoveTowards
+        - HutongGames.PlayMaker.Actions.AgentSetPath
         - HutongGames.PlayMaker.Actions.Wait
         customNames:
         - 
         - 
         actionEnabled: 0101
         actionIsOpen: 0101
-        actionStartIndex: 0000000007000000
-        actionHashCodes: fa0e540248c01101
+        actionStartIndex: 0000000005000000
+        actionHashCodes: 556f820048c01101
         unityObjectParams: []
-        fsmGameObjectParams:
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {fileID: 0}
+        fsmGameObjectParams: []
         fsmOwnerDefaultParams:
         - ownerOption: 0
           gameObject:
@@ -333,6 +327,15 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             value: {fileID: 0}
+        - ownerOption: 1
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 6561306580087259037, guid: 714a555039d1b004aaae1ad686171ae5,
+              type: 3}
         animationCurveParams: []
         functionCallParams: []
         fsmTemplateControlParams: []
@@ -350,19 +353,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 5
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0.5
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 5
+          value: 2
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 0
@@ -370,40 +361,33 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 1
+          value: 0
         fsmVector2Params: []
-        fsmVector3Params:
-        - useVariable: 1
-          name: Pos
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {x: 0, y: 0, z: 0}
+        fsmVector3Params: []
         fsmColorParams: []
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams:
         - FINISHED
+        - 
         - FINISHED
         byteData: 00
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 14000000130000001c000000110000000f0000000f000000170000000f0000001700000001000000
+        paramDataType: 14000000140000001100000017000000170000000f0000001700000001000000
         paramName:
         - gameObject
-        - targetObject
-        - targetPosition
-        - ignoreVertical
-        - maxSpeed
-        - finishDistance
-        - finishEvent
+        - path
+        - pathAssigned
+        - pathAssignedEvent
+        - pathNotAssignedEvent
         - time
         - finishEvent
         - realTime
-        paramDataPos: 00000000000000000000000000000000000000000100000000000000020000000100000000000000
-        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000000000000000000001000000
+        paramDataPos: 0000000001000000000000000000000001000000000000000200000000000000
+        paramByteDataSize: 0000000000000000000000000000000000000000000000000000000001000000
     events:
     - name: Chase Player
       isSystemEvent: 0
