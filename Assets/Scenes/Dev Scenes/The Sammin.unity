@@ -1385,6 +1385,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayMaker Photon Proxy
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 9b9a57edc50934a459fe9fbe6cdb6f5c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9b9a57edc50934a459fe9fbe6cdb6f5c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -2189,18 +2193,17 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 01010101010101
-        actionIsOpen: 00000000010101
+        actionIsOpen: 00000000000001
         actionStartIndex: 000000000300000006000000180000001b0000001f00000022000000
         actionHashCodes: e9f73304e9f73304775a8801e9f733043b820d03e9f733045797fc02
         unityObjectParams: []
         fsmGameObjectParams:
-        - useVariable: 0
-          name: 
+        - useVariable: 1
+          name: Red Player
           tooltip: 
-          showInInspector: 0
+          showInInspector: 1
           networkSync: 0
-          value: {fileID: 7167274223594045019, guid: 714a555039d1b004aaae1ad686171ae5,
-            type: 3}
+          value: {fileID: 0}
         - useVariable: 0
           name: 
           tooltip: 
@@ -2491,18 +2494,17 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 0101010101
-        actionIsOpen: 0000010001
+        actionIsOpen: 0000000001
         actionStartIndex: 000000000300000006000000180000001b000000
         actionHashCodes: e9f73304e9f73304775a8801e9f733045797fc02
         unityObjectParams: []
         fsmGameObjectParams:
-        - useVariable: 0
-          name: 
+        - useVariable: 1
+          name: Blue Player
           tooltip: 
-          showInInspector: 0
+          showInInspector: 1
           networkSync: 0
-          value: {fileID: 7167274223594045019, guid: ad81ba2107dce8d459adbdee8917a2e6,
-            type: 3}
+          value: {fileID: 0}
         - useVariable: 0
           name: 
           tooltip: 
@@ -2840,7 +2842,21 @@ MonoBehaviour:
       colorVariables: []
       rectVariables: []
       quaternionVariables: []
-      gameObjectVariables: []
+      gameObjectVariables:
+      - useVariable: 1
+        name: Red Player
+        tooltip: 
+        showInInspector: 1
+        networkSync: 0
+        value: {fileID: 6561306580087259037, guid: 714a555039d1b004aaae1ad686171ae5,
+          type: 3}
+      - useVariable: 1
+        name: Blue Player
+        tooltip: 
+        showInInspector: 1
+        networkSync: 0
+        value: {fileID: 2133176748428499018, guid: ad81ba2107dce8d459adbdee8917a2e6,
+          type: 3}
       objectVariables: []
       materialVariables: []
       textureVariables: []
@@ -2848,7 +2864,7 @@ MonoBehaviour:
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000
+      variableCategoryIDs: 000000000000000000000000000000000000000000000000000000000000000000000000
     description: 
     docUrl: 
     showStateLabel: 0
