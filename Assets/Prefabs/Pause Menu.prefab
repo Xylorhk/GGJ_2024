@@ -648,7 +648,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &3736696460932984921
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1088,7 +1088,7 @@ MonoBehaviour:
         - Resume
         - Resume
         - Quit
-        - 
+        - Begin
         byteData: 1b000000000000
         arrayParamSizes: 0300000003000000
         arrayParamTypes:
@@ -1393,10 +1393,10 @@ MonoBehaviour:
           gameObject:
             ownerOption: 1
             gameObject:
-              useVariable: 0
-              name: 
+              useVariable: 1
+              name: Photon
               tooltip: 
-              showInInspector: 0
+              showInInspector: 1
               networkSync: 0
               value: {fileID: 0}
           fsmName:
@@ -1405,7 +1405,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            value: 
+            value: PUN Connections
           sendToChildren:
             useVariable: 0
             name: 
@@ -1489,7 +1489,7 @@ MonoBehaviour:
         tooltip: 
         showInInspector: 1
         networkSync: 0
-        value: 
+        value: PUN Connections
       vector2Variables: []
       vector3Variables: []
       colorVariables: []
