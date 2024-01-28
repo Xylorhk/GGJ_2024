@@ -919,7 +919,7 @@ MonoBehaviour:
             ownerOption: 1
             gameObject:
               useVariable: 1
-              name: Player 1
+              name: Player1
               tooltip: 
               showInInspector: 0
               networkSync: 0
