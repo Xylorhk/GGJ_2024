@@ -474,6 +474,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue_Player
       objectReference: {fileID: 0}
+    - target: {fileID: 5393988553943349786, guid: ad81ba2107dce8d459adbdee8917a2e6,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8235714493749795401, guid: ad81ba2107dce8d459adbdee8917a2e6,
         type: 3}
       propertyPath: sceneViewId
