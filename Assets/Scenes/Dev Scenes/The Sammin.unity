@@ -2865,9 +2865,9 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams:
-        - Spawn Blue Player
+        - Spawn Green Player
         - Spawn Yellow Player
-        - 
+        - Spawn Blue Player
         byteData: 00
         arrayParamSizes: 0300000003000000
         arrayParamTypes:
