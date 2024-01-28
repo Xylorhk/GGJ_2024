@@ -30,25 +30,67 @@ MonoBehaviour:
       networkSync: 0
       value: {fileID: 0}
     - useVariable: 1
-      name: Player 1
+      name: Player1
       tooltip: 
       showInInspector: 0
       networkSync: 0
       value: {fileID: 0}
     - useVariable: 1
-      name: Player 2
+      name: Player2
       tooltip: 
       showInInspector: 0
       networkSync: 0
       value: {fileID: 0}
     - useVariable: 1
-      name: Player 3
+      name: Player3
       tooltip: 
       showInInspector: 0
       networkSync: 0
       value: {fileID: 0}
     - useVariable: 1
-      name: Player 4
+      name: Player4
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
+    - useVariable: 1
+      name: Player5
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
+    - useVariable: 1
+      name: Player6
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
+    - useVariable: 1
+      name: GM2
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
+    - useVariable: 1
+      name: GM3
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
+    - useVariable: 1
+      name: GM4
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
+    - useVariable: 1
+      name: GM5
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
+    - useVariable: 1
+      name: GM6
       tooltip: 
       showInInspector: 0
       networkSync: 0
@@ -60,7 +102,7 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 000000000000000000000000000000000000000000000000
+    variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   events:
   - PHOTON / CLIENT STATE / AUTHENTICATED
   - PHOTON / CLIENT STATE / AUTHENTICATING
@@ -105,22 +147,3 @@ MonoBehaviour:
   - PHOTON / ON REGION LIST RECEIVED
   - PHOTON / ON WEBRPC RESPONSE
   - PHOTON / ON PHOTON INSTANTIATE
-  - Damage
-  - Add Wealth
-  - Gain Health
-  - Killed
-  - Subtract Wealth
-  - Heal
-  - Suicide
-  - Chase
-  - You Win!!!
-  - TargetFound
-  - TargetHit
-  - Found
-  - Recover
-  - Respawn
-  - Stun
-  - Defeated
-  - shaken
-  - Affect
-  - Begin
