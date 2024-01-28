@@ -22,37 +22,7 @@ MonoBehaviour:
     colorVariables: []
     rectVariables: []
     quaternionVariables: []
-    gameObjectVariables:
-    - useVariable: 1
-      name: GM
-      tooltip: 
-      showInInspector: 0
-      networkSync: 0
-      value: {fileID: 0}
-    - useVariable: 1
-      name: Player 1
-      tooltip: 
-      showInInspector: 0
-      networkSync: 0
-      value: {fileID: 0}
-    - useVariable: 1
-      name: Player 2
-      tooltip: 
-      showInInspector: 0
-      networkSync: 0
-      value: {fileID: 0}
-    - useVariable: 1
-      name: Player 3
-      tooltip: 
-      showInInspector: 0
-      networkSync: 0
-      value: {fileID: 0}
-    - useVariable: 1
-      name: Player 4
-      tooltip: 
-      showInInspector: 0
-      networkSync: 0
-      value: {fileID: 0}
+    gameObjectVariables: []
     objectVariables: []
     materialVariables: []
     textureVariables: []
@@ -60,7 +30,7 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 000000000000000000000000000000000000000000000000
+    variableCategoryIDs: 
   events:
   - PHOTON / CLIENT STATE / AUTHENTICATED
   - PHOTON / CLIENT STATE / AUTHENTICATING
@@ -105,22 +75,3 @@ MonoBehaviour:
   - PHOTON / ON REGION LIST RECEIVED
   - PHOTON / ON WEBRPC RESPONSE
   - PHOTON / ON PHOTON INSTANTIATE
-  - Damage
-  - Add Wealth
-  - Gain Health
-  - Killed
-  - Subtract Wealth
-  - Heal
-  - Suicide
-  - Chase
-  - You Win!!!
-  - TargetFound
-  - TargetHit
-  - Found
-  - Recover
-  - Respawn
-  - Stun
-  - Defeated
-  - shaken
-  - Affect
-  - Begin

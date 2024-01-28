@@ -274,8 +274,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 266.79688
-        y: 107.78125
+        x: 276.79688
+        y: 106.78125
         width: 113.2
         height: 16
       isBreakpoint: 0
