@@ -106,7 +106,6 @@ MonoBehaviour:
   - PHOTON / ON WEBRPC RESPONSE
   - PHOTON / ON PHOTON INSTANTIATE
   - Damage
-  - Lose Health
   - Add Wealth
   - Gain Health
   - Killed
