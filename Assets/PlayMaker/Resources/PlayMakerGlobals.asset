@@ -147,3 +147,21 @@ MonoBehaviour:
   - PHOTON / ON REGION LIST RECEIVED
   - PHOTON / ON WEBRPC RESPONSE
   - PHOTON / ON PHOTON INSTANTIATE
+  - BeginRoom1
+  - Stun
+  - Respawn
+  - Recover
+  - Damage
+  - Add Wealth
+  - Begin
+  - Gain Health
+  - Killed
+  - Lose Health
+  - Subtract Wealth
+  - Heal
+  - Affect
+  - Chase
+  - TargetHit
+  - Defeated
+  - TargetFound
+  - Found
