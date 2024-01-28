@@ -320,7 +320,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 1
+          value: 3
         - useVariable: 0
           name: 
           tooltip: 
