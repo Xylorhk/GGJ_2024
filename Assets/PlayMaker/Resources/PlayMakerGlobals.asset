@@ -82,7 +82,6 @@ MonoBehaviour:
   - PHOTON / ON WEBRPC RESPONSE
   - PHOTON / ON PHOTON INSTANTIATE
   - Damage
-  - Lose Health
   - Add Wealth
   - Gain Health
   - Killed
@@ -99,3 +98,5 @@ MonoBehaviour:
   - Stun
   - Defeated
   - shaken
+  - Fall
+  - Lose Health
