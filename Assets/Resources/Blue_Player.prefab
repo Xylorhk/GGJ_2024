@@ -686,7 +686,7 @@ MonoBehaviour:
         fsmQuaternionParams: []
         stringParams:
         - Swing
-        byteData: 66000000
+        byteData: 43010000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
@@ -1180,8 +1180,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 318.1953
-        y: 149.25781
+        x: 302.1953
+        y: 122.25781
         width: 100
         height: 32
       isBreakpoint: 0
@@ -1254,7 +1254,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 59.75
-        y: 156.53906
+        y: 108.53906
         width: 100
         height: 32
       isBreakpoint: 0
@@ -1341,7 +1341,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 393.0703
-        y: 111
+        y: 63
         width: 100
         height: 32
       isBreakpoint: 0
@@ -1491,7 +1491,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 230.92969
-        y: 102.0625
+        y: 54.0625
         width: 100
         height: 32
       isBreakpoint: 0

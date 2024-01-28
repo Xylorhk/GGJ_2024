@@ -935,26 +935,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue_Player
       objectReference: {fileID: 0}
-    - target: {fileID: 5763821867859244505, guid: ad81ba2107dce8d459adbdee8917a2e6,
-        type: 3}
-      propertyPath: fsm.states.Array.data[0].position.y
-      value: 101.25781
-      objectReference: {fileID: 0}
-    - target: {fileID: 5763821867859244505, guid: ad81ba2107dce8d459adbdee8917a2e6,
-        type: 3}
-      propertyPath: fsm.states.Array.data[1].position.y
-      value: 108.53906
-      objectReference: {fileID: 0}
-    - target: {fileID: 5763821867859244505, guid: ad81ba2107dce8d459adbdee8917a2e6,
-        type: 3}
-      propertyPath: fsm.states.Array.data[2].position.y
-      value: 63
-      objectReference: {fileID: 0}
-    - target: {fileID: 5763821867859244505, guid: ad81ba2107dce8d459adbdee8917a2e6,
-        type: 3}
-      propertyPath: fsm.states.Array.data[3].position.y
-      value: 54.0625
-      objectReference: {fileID: 0}
     - target: {fileID: 8235714493749795401, guid: ad81ba2107dce8d459adbdee8917a2e6,
         type: 3}
       propertyPath: sceneViewId
@@ -1016,16 +996,21 @@ PrefabInstance:
     - target: {fileID: 599429354218685989, guid: 668c7012b9ba1814ea40531e48da6c36,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 599429354218685989, guid: 668c7012b9ba1814ea40531e48da6c36,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 599429354218685989, guid: 668c7012b9ba1814ea40531e48da6c36,
         type: 3}
       propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 599429354218685989, guid: 668c7012b9ba1814ea40531e48da6c36,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 599429354218685989, guid: 668c7012b9ba1814ea40531e48da6c36,
@@ -1761,12 +1746,12 @@ SceneRoots:
   - {fileID: 627884383}
   - {fileID: 1716078236}
   - {fileID: 632549175}
-  - {fileID: 1759442190}
   - {fileID: 1459726231}
   - {fileID: 1963035200}
   - {fileID: 458329836}
-  - {fileID: 1143244369}
   - {fileID: 1505181010}
   - {fileID: 911105034}
   - {fileID: 889990479}
+  - {fileID: 1759442190}
+  - {fileID: 1143244369}
   - {fileID: 1044561634}
