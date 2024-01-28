@@ -414,7 +414,7 @@ Transform:
   m_GameObject: {fileID: 2412213247285814526}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.3, y: -1.29, z: 0}
+  m_LocalPosition: {x: 4.3, y: -0.98, z: 0}
   m_LocalScale: {x: 2, y: 1.81074, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -692,14 +692,14 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: {x: 4.297626, y: -0.365977, z: -0.027251184}
+          value: {x: 0, y: 1.0280681, z: 0}
         fsmColorParams: []
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams:
         - Explode
         - 
-        byteData: 00000000000100000001000000000000000000000000
+        byteData: 00000000000300000001000000000000000000000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
