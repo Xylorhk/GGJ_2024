@@ -42,7 +42,7 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 00000000
+    variableCategoryIDs: 0000000000000000
   events:
   - PHOTON / CLIENT STATE / AUTHENTICATED
   - PHOTON / CLIENT STATE / AUTHENTICATING
