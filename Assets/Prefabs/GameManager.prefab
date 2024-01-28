@@ -657,7 +657,7 @@ MonoBehaviour:
           name: Killed
           isSystemEvent: 0
           isGlobal: 1
-        toState: Killed
+        toState: Player 1 Killed
         linkStyle: 0
         linkConstraint: 0
         linkTarget: 0
@@ -869,14 +869,14 @@ MonoBehaviour:
         - everyFrame
         paramDataPos: 000000000100000000000000010000000200000000000000
         paramByteDataSize: 000000000000000000000000000000000000000001000000
-    - name: Killed
+    - name: Player 1 Killed
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
         x: 637.41406
         y: 189.88281
-        width: 100
+        width: 113.2
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -919,9 +919,9 @@ MonoBehaviour:
             ownerOption: 1
             gameObject:
               useVariable: 1
-              name: Player
+              name: Player 1
               tooltip: 
-              showInInspector: 1
+              showInInspector: 0
               networkSync: 0
               value: {fileID: 0}
           fsmName:
