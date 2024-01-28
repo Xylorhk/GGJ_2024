@@ -94,3 +94,8 @@ MonoBehaviour:
   - TargetFound
   - TargetHit
   - Found
+  - Recover
+  - Respawn
+  - Stun
+  - Defeated
+  - shaken
