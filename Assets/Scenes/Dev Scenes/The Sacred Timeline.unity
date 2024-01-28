@@ -1806,7 +1806,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 1
+          value: 0.7
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 0
@@ -1828,7 +1828,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: {x: 4.297626, y: -0.6535032, z: -0.027251184}
+          value: {x: 4.297626, y: -0.365977, z: -0.027251184}
         fsmColorParams: []
         fsmRectParams: []
         fsmQuaternionParams: []
@@ -2938,7 +2938,7 @@ PrefabInstance:
     - target: {fileID: 826787299025333605, guid: ad81ba2107dce8d459adbdee8917a2e6,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.79
+      value: -0.59
       objectReference: {fileID: 0}
     - target: {fileID: 826787299025333605, guid: ad81ba2107dce8d459adbdee8917a2e6,
         type: 3}
@@ -3344,6 +3344,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 426956793157986295, guid: 668c7012b9ba1814ea40531e48da6c36,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[0].value
+      value: 
+      objectReference: {fileID: 808038266}
     - target: {fileID: 599429354218685989, guid: 668c7012b9ba1814ea40531e48da6c36,
         type: 3}
       propertyPath: m_LocalPosition.x
