@@ -689,7 +689,7 @@ MonoBehaviour:
       - fsmEvent:
           name: FINISHED
           isSystemEvent: 1
-          isGlobal: 0
+          isGlobal: 1
         toState: Always Watching
         linkStyle: 0
         linkConstraint: 0
@@ -782,7 +782,7 @@ MonoBehaviour:
     events:
     - name: FINISHED
       isSystemEvent: 1
-      isGlobal: 0
+      isGlobal: 1
     - name: Found
       isSystemEvent: 0
       isGlobal: 1
@@ -1344,7 +1344,7 @@ MonoBehaviour:
       - fsmEvent:
           name: FINISHED
           isSystemEvent: 1
-          isGlobal: 0
+          isGlobal: 1
         toState: State 1
         linkStyle: 0
         linkConstraint: 0
@@ -1440,7 +1440,7 @@ MonoBehaviour:
       isGlobal: 1
     - name: FINISHED
       isSystemEvent: 1
-      isGlobal: 0
+      isGlobal: 1
     globalTransitions: []
     variables:
       floatVariables: []
@@ -1915,7 +1915,7 @@ MonoBehaviour:
       - fsmEvent:
           name: FINISHED
           isSystemEvent: 1
-          isGlobal: 0
+          isGlobal: 1
         toState: Look At
         linkStyle: 0
         linkConstraint: 0
@@ -2066,7 +2066,7 @@ MonoBehaviour:
       - fsmEvent:
           name: FINISHED
           isSystemEvent: 1
-          isGlobal: 0
+          isGlobal: 1
         toState: Look At
         linkStyle: 0
         linkConstraint: 0
@@ -2164,7 +2164,7 @@ MonoBehaviour:
       isGlobal: 1
     - name: FINISHED
       isSystemEvent: 1
-      isGlobal: 0
+      isGlobal: 1
     - name: Activate
       isSystemEvent: 0
       isGlobal: 0
@@ -2609,7 +2609,7 @@ MonoBehaviour:
       - fsmEvent:
           name: FINISHED
           isSystemEvent: 1
-          isGlobal: 0
+          isGlobal: 1
         toState: Listen
         linkStyle: 0
         linkConstraint: 0
@@ -2789,7 +2789,7 @@ MonoBehaviour:
       isGlobal: 1
     - name: FINISHED
       isSystemEvent: 1
-      isGlobal: 0
+      isGlobal: 1
     - name: Defeated
       isSystemEvent: 0
       isGlobal: 1
@@ -3382,7 +3382,7 @@ MonoBehaviour:
     events:
     - name: FINISHED
       isSystemEvent: 1
-      isGlobal: 0
+      isGlobal: 1
     - name: TrackTargetPos
       isSystemEvent: 0
       isGlobal: 0

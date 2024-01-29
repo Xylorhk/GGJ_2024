@@ -1002,7 +1002,7 @@ MonoBehaviour:
       - fsmEvent:
           name: Done
           isSystemEvent: 0
-          isGlobal: 0
+          isGlobal: 1
         toState: Done
         linkStyle: 0
         linkConstraint: 0
@@ -1166,7 +1166,7 @@ MonoBehaviour:
       - fsmEvent:
           name: FINISHED
           isSystemEvent: 1
-          isGlobal: 0
+          isGlobal: 1
         toState: Listen
         linkStyle: 0
         linkConstraint: 0
@@ -1316,7 +1316,7 @@ MonoBehaviour:
       - fsmEvent:
           name: FINISHED
           isSystemEvent: 1
-          isGlobal: 0
+          isGlobal: 1
         toState: Done
         linkStyle: 0
         linkConstraint: 0
@@ -1498,10 +1498,10 @@ MonoBehaviour:
       isGlobal: 0
     - name: Done
       isSystemEvent: 0
-      isGlobal: 0
+      isGlobal: 1
     - name: FINISHED
       isSystemEvent: 1
-      isGlobal: 0
+      isGlobal: 1
     - name: Damage
       isSystemEvent: 0
       isGlobal: 1
@@ -1615,7 +1615,7 @@ MonoBehaviour:
       - fsmEvent:
           name: FINISHED
           isSystemEvent: 1
-          isGlobal: 0
+          isGlobal: 1
         toState: Listen
         linkStyle: 0
         linkConstraint: 0
@@ -1688,7 +1688,7 @@ MonoBehaviour:
       - fsmEvent:
           name: FINISHED
           isSystemEvent: 1
-          isGlobal: 0
+          isGlobal: 1
         toState: Listen
         linkStyle: 0
         linkConstraint: 0
@@ -1775,7 +1775,7 @@ MonoBehaviour:
       - fsmEvent:
           name: FINISHED
           isSystemEvent: 1
-          isGlobal: 0
+          isGlobal: 1
         toState: Rest
         linkStyle: 0
         linkConstraint: 0
@@ -1960,7 +1960,7 @@ MonoBehaviour:
       - fsmEvent:
           name: FINISHED
           isSystemEvent: 1
-          isGlobal: 0
+          isGlobal: 1
         toState: Dash
         linkStyle: 0
         linkConstraint: 0
@@ -2020,10 +2020,10 @@ MonoBehaviour:
     events:
     - name: FINISHED
       isSystemEvent: 1
-      isGlobal: 0
+      isGlobal: 1
     - name: Done
       isSystemEvent: 0
-      isGlobal: 0
+      isGlobal: 1
     - name: Dash
       isSystemEvent: 0
       isGlobal: 0
@@ -2445,7 +2445,7 @@ MonoBehaviour:
       - fsmEvent:
           name: FINISHED
           isSystemEvent: 1
-          isGlobal: 0
+          isGlobal: 1
         toState: active
         linkStyle: 0
         linkConstraint: 0
@@ -2502,7 +2502,7 @@ MonoBehaviour:
       isGlobal: 1
     - name: FINISHED
       isSystemEvent: 1
-      isGlobal: 0
+      isGlobal: 1
     globalTransitions: []
     variables:
       floatVariables: []
@@ -2604,7 +2604,7 @@ MonoBehaviour:
       - fsmEvent:
           name: FINISHED
           isSystemEvent: 1
-          isGlobal: 0
+          isGlobal: 1
         toState: Walk
         linkStyle: 0
         linkConstraint: 0
@@ -2960,7 +2960,7 @@ MonoBehaviour:
     events:
     - name: FINISHED
       isSystemEvent: 1
-      isGlobal: 0
+      isGlobal: 1
     - name: Walking Sounds
       isSystemEvent: 0
       isGlobal: 0
